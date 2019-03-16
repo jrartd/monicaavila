@@ -64,6 +64,10 @@
 </section>
 
 
+
+
+
+
 <!-- Info block 1 -->
 <section class="info-section" style="margin-top: 90px;">
 	<div class="container-fluid">
@@ -106,3 +110,15 @@
 
 
 
+<div class="container-fluid fondosuscripcion" style="padding-top: 120px; padding-bottom: 120px;margin-top: 80px;">
+	<!--Menú -->
+	<div class="col-md-8 offset-md-2" style="padding: 20px; background: white;">
+		<div class="row">
+			<div class="col-md-6">
+				<h1 class="titulobase" style="color: black;font-weight: 100;">Suscríbete ahora <br>a nuestro newsletter</h1>
+			</div>
+			<div class="col-md-6"></div>
+		</div>
+		
+	</div>
+</div>
