@@ -1,5 +1,5 @@
 <!-- Info block 1 -->
-<section class="info-section" style="margin-top: 90px;">
+<section class="info-section d-none d-lg-block" style="margin-top: 90px;">
 	<div class="container-fluid">
 		<div class="col-md-10 offset-md-1 row">
 			<div class="col-md-8">
@@ -23,14 +23,28 @@
 	</div>
 </section>
 
+<style>
+@media (min-width: 768px) { 
+  .tit_resp {
+    font-size: 70px;
+
+  }
+}
+
+@media (max-width: 767px) { 
+  .tit_resp {
+    font-size: 30px;
+  }
+}
+</style>
 
 <!-- Info block 1 -->
 <section class="info-section" style="margin-top: 90px;">
 	<div class="container-fluid">
 		<div class="col-md-10 offset-md-1 row">
-			<h1 class="titulobase col-md-12" style="font-size: 70px;color: black;font-weight: 700;letter-spacing: -3px;">Departamentos</h1>
-			<h2 class="titulobase col-md-12" style="font-size: 40px;color: black;" >Espacios únicos donde puedes ser tú</h2>
-			<div class="col-md-4">
+			<h1 class="titulobase col-md-12" style="font-size: 50px;color: black;font-weight: 700;letter-spacing: -3px;">Departamentos</h1>
+			<h2 class="titulobase col-md-12" style="font-size: 30px;color: black;" >Espacios únicos donde puedes ser tú</h2>
+			<div class="col-md-4 d-none d-lg-block">
 				<div class="row">
 					<img class="col-md-12 img-fluid" src="https://monicaavilainmobiliaria.com/wp-content/uploads/2019/03/photo-1502005097973-6a7082348e28.jpg" alt="">				
 				</div>
@@ -72,8 +86,8 @@
 <section class="info-section" style="margin-top: 90px;">
 	<div class="container-fluid">
 		<div class="col-md-10 offset-md-1 row">
-			<h1 class="titulobase col-md-12" style="font-size: 70px;color: black;font-weight: 700;letter-spacing: -3px;">Casas</h1>
-			<h2 class="titulobase col-md-12" style="font-size: 40px;color: black;" >Espacios únicos donde puedes ser tú</h2>
+			<h1 class="titulobase col-md-12" style="font-size: 50px;color: black;font-weight: 700;letter-spacing: -3px;">Casas</h1>
+			<h2 class="titulobase col-md-12" style="font-size: 30px;color: black;" >Espacios únicos donde puedes ser tú</h2>
 
 			<div class="col-md-8">
 				<div class="row">
@@ -99,7 +113,7 @@
 					</div>			
 				</div>
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-4 d-none d-lg-block">
 				<div class="row">
 					<img class="col-md-12 img-fluid" src="https://monicaavilainmobiliaria.com/wp-content/uploads/2019/03/photo-1502005097973-6a7082348e28.jpg" alt="">				
 				</div>
