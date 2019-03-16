@@ -15,7 +15,7 @@
 	<script defer href="http://jorgerobalino.co/wp-content/themes/personal/fontawesome-free/js/all.js"></script>
 
 	<!-- CSS -->
-		<link href=" <?php bloginfo("stylesheet_url" ); ?> " rel="stylesheet"/>
+		<link href=" <?php bloginfo("stylesheet_url"); ?> " rel="stylesheet"/>
 	</head>
 	
 	<!-- Javascript -->
